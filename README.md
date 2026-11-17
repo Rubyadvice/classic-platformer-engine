@@ -1,8 +1,6 @@
 # Classic platformer engine
 
-Extracted from RetroTube's classic mode on November 17, 2026. All source and data imports resolve inside this folder. Run the TypeScript with Node.js 24 or a TypeScript-aware bundler.
-
-The three example campaigns share one classic movement model. Character, enemy, pickup, campaign, and speed-meter identifiers use generic platformer terminology. Source artwork metadata has been removed from the example data. Terminal fall speed, hitbox size, corner correction, swimming, and several gameplay interactions include recreation choices and have not all been validated against original console behavior.
+Run the TypeScript with Node.js 24 or a TypeScript-aware bundler.
 
 ## Components
 
