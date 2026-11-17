@@ -69,7 +69,3 @@ console.log(game.player, game.events);
 For custom room geometry, supply a LevelSet to createSession(). For just the character controller, use createPlayer() and step() from physics.ts with a World providing solid() and optionally slope().
 
 Rendering, artwork, audio, browser controls, and the desktop are presentation integrations. The copied engine produces player state, world state, and events for a host application to display.
-
-## Verification
-
-The extracted engine matched the workspace classic simulation across all 149 campaign courses using the same 240-tick input sequence per course. Additional comparisons covered power-ups, block rewards, damage, pipe travel, and physics constants. Every module import resolves to a file inside this folder.
