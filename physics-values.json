@@ -1,0 +1,27 @@
+{
+  "tickRate": 60,
+  "units": 16,
+  "walkSpeed": 24,
+  "runSpeed": 40,
+  "powerSpeed": 56,
+  "steepSlideSpeed": 60,
+  "gradualSlideSpeed": 48,
+  "slopeSpeedMod": 4,
+  "maxSpeedMeter": 7,
+  "speedMeterStepFrames": 8,
+  "cornerCorrectionPx": 3,
+  "jumpSpeed": -56,
+  "jumpBoost": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "heldGravity": 1,
+  "releasedGravity": 5,
+  "heldThreshold": -32,
+  "maxFall": 64,
+  "width": 12,
+  "height": 16,
+  "tile": 16
+}
